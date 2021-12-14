@@ -1,0 +1,49 @@
+.box {
+    border: 1px solid white;
+    width: 308px;
+    height: 308px;
+  }
+  .square {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    position: relative; 
+    display: inline-block;
+  }
+  .circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .bg-red {
+    background-color: red;
+  }
+  .bg-blue {
+    background-color: blue;
+  }
+  .bg-green {
+    background-color: green;
+  }
+  .bg-yellow {
+    background-color: yellow;
+  }
+  .bg-black {
+    background-color: black;
+  }
+  .bg-orange {
+    background-color: orange;
+  }
+  .bg-violet {
+    background-color: darkmagenta;
+  }
+  .bg-gray {
+    background-color: gray;
+  }
+  .bg-pink {
+    background-color: pink;
+  }
